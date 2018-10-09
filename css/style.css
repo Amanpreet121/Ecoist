@@ -1,0 +1,111 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+body{
+	font-size: 20px;
+	overflow-x: hidden;
+	font-family: cursive;
+}
+header{
+    background-image: url('../images/mainphoto.jpg');
+    height:50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.overlay {
+    background: linear-gradient(rgba(113,201,186,0.7),rgba(95,232,118,0.7));
+    height: 50vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.row{
+	max-width: 1180px;
+	margin: 0 auto;
+}
+.clearfix:after{
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0px;
+	clear: both;
+}
+.logo{
+	height: 40px;
+	width: auto;
+	float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.main-nav{
+	float: right;
+    margin-top: 20px;
+}
+
+.main-nav li{
+	display: inline-block;
+	list-style: none;
+
+}
+
+.main-nav li a{
+	padding: 20px 10px;
+	color:rgb(63, 214, 214);
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 90%; 
+	font-weight: 100;
+}
+.photo_menu{
+    max-width: 1180px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box{
+    
+    border:1px solid;
+    width:200px;
+    margin:0 90px;
+}
+.photo_box{
+    text-align: center;
+    width:200px;
+    height:150px;
+    background-color: rgb(89, 211, 140);
+
+}
+.icon{
+    color:green;
+    margin-top: 10px;
+    height:40px;
+}
+.photo_menu{
+    padding:10px;
+    position: relative;
+}
+.photo_menu img{
+    height:40px;
+    width:40px;
+}
+.photohead{
+    position:absolute;
+    left:320px;
+    top:30px;
+    line-height: 60px;
+    width:600px;
+}
+.photo_menu a{
+    text-decoration: none;
+	text-transform: uppercase;
+	font-size: 90%; 
+    font-weight: 100;
+    color:#FFF;
+}
